@@ -423,10 +423,7 @@ const againBtn = document.getElementById('againBtn');
 
 // After deploying your Cloudflare Worker, paste its URL here.
 // It'll look like: https://plant-doctor-api.YOUR-SUBDOMAIN.workers.dev
-const WORKER_URL = 'PASTE_YOUR_WORKER_URL_HERE';
-
-let imageBase64 = null;
-let imageMediaType = null;
+const WORKER_URL = 'https://plant-doctor-api.gfoust.workers.dev';
 
 dropzone.addEventListener('click', () => fileInput.click());
 dropzone.addEventListener('keydown', (e) => { if(e.key === 'Enter' || e.key === ' ') fileInput.click(); });
